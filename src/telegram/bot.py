@@ -8,3 +8,6 @@ bot = telebot.TeleBot(telegram_bot_token)
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
     bot.reply_to(message, "Hi, what do you need today?")
+
+# https://github.com/ashutoshkrris/Telegram-Horoscope-Bot/blob/main/bot.py
+
