@@ -25,7 +25,7 @@ venv/
 ENV/
 
 # Environment Variables
-.env
+# .env
 
 # IDE
 .idea/
@@ -34,4 +34,4 @@ ENV/
 # Logs
 *.log 
 
-*-checkpoint.ipynb
+# *-checkpoint.ipynb
